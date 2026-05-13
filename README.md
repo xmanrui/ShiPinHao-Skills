@@ -16,7 +16,7 @@
 | <h3>[懂十一.skill](./dongshiyi/README.md)</h3>           | 日更100条                 |doing |
 
 ## 目录约定
-
+![img.png](doc/img.png)
 每个博主文件夹遵循统一结构：
 
 ```
@@ -50,6 +50,18 @@
 2. 按上述结构填入文件（SKILL.md / persona.md / work.md / knowledge/）
 3. 在本 README 的「Skills 列表」加一行链接
 4. 软链到 `~/.claude/skills/<slug>` 即可在 Claude Code 中通过 `/<slug>` 调用
+
+
+
+## 联系方式
+
+<table>
+  <tr>
+    <td align="center"><img src="doc/wechat.png" width="200"/><br/>微信</td>
+    <td align="center"><img src="doc/shipinhao.jpg" width="200"/><br/>视频号</td>
+    <td align="center"><img src="doc/xhs.png" width="200"/><br/>小红书</td>
+  </tr>
+</table>
 
 ## License
 
