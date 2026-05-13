@@ -1,0 +1,49 @@
+# ShiPinHao-Skills
+
+视频号博主 skill 集合。每个博主一个文件夹，独立可加载。
+
+## Skills 列表
+
+| 博主                                | 简介 |
+|-----------------------------------|---|
+| <h3>[福饱饱.skill](./fubaobao/README.md)</h3> | 微信视频号素人妈妈博主，做带货 + 口播 vlog + 素人创作教程 |
+
+## 目录约定
+
+每个博主文件夹遵循统一结构：
+
+```
+<博主名>/
+├── README.md                         # 第一行为「<博主中文名>.skill」（H1 居中加粗），用作总目录引用
+├── SKILL.md                          # 默认入口：人设 + 工作能力合体（带 frontmatter，可被 Claude Code 识别）
+├── work_skill.md                     # 子入口：仅工作方法论
+├── persona_skill.md                  # 子入口：仅人物性格
+├── work.md                           # work 原始文档（无 frontmatter）
+├── persona.md                        # persona 原始文档（无 frontmatter）
+├── meta.json                         # skill 元数据
+├── manifest.json                     # 安装清单
+├── .gitignore
+└── knowledge/
+    └── research/
+        ├── raw/                      # 关键金句索引（带时间戳）
+        ├── merged/                   # 6 维度研究（writings/conversations/expression_dna/decisions/external_views/timeline）
+        └── reviews/                  # audit / synthesis / validation
+```
+
+## 命名约定
+
+- 文件夹名：博主拼音或英文 slug（如 `fubaobao`），全小写，连接符可用 `_` 或 `-`
+- README 第一行：`<h1 align="center">博主中文名.skill</h1>`，作为本目录引用的标准来源
+- SKILL.md frontmatter 的 `name`：与文件夹名一致（如 `name: fubaobao`）
+- 子 skill 命名：`<slug>_work` / `<slug>_persona`
+
+## 添加新博主
+
+1. 在本目录新建 `<slug>/` 文件夹
+2. 按上述结构填入文件（SKILL.md / persona.md / work.md / knowledge/）
+3. 在本 README 的「Skills 列表」加一行链接
+4. 软链到 `~/.claude/skills/<slug>` 即可在 Claude Code 中通过 `/<slug>` 调用
+
+## License
+
+MIT
