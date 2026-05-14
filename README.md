@@ -43,6 +43,49 @@
 - SKILL.md frontmatter 的 `name`：与文件夹名一致（如 `name: fubaobao`）
 - 子 skill 命名：`<slug>_work` / `<slug>_persona`
 
+## 安装某个博主的 skill（以 fubaobao 为例）
+
+以 `fubaobao` 为例，装好后即可在 Claude Code 中通过 `/fubaobao` 调用。
+
+### 方式 1：一行命令直接安装（推荐）
+
+用 [degit](https://github.com/Rich-Harris/degit) 把单个博主文件夹拉到 `~/.claude/skills/` 下，无需克隆整个仓库：
+
+```bash
+npx degit xmanrui/ShiPinHao-Skills/fubaobao ~/.claude/skills/fubaobao
+```
+
+没装 Node 的话用 `curl + tar` 也行：
+
+```bash
+mkdir -p ~/.claude/skills/fubaobao
+curl -L https://github.com/xmanrui/ShiPinHao-Skills/archive/refs/heads/main.tar.gz \
+  | tar -xz -C ~/.claude/skills/fubaobao --strip-components=2 ShiPinHao-Skills-main/fubaobao
+```
+
+### 方式 2：克隆仓库 + 软链（想跟随更新时用）
+
+```bash
+git clone git@github.com:xmanrui/ShiPinHao-Skills.git ~/code/ShiPinHao-Skills
+ln -s ~/code/ShiPinHao-Skills/fubaobao ~/.claude/skills/fubaobao
+```
+
+之后 `git pull` 就能同步博主 skill 的最新版本。
+
+### 验证 & 调用
+
+```bash
+ls ~/.claude/skills/fubaobao
+```
+
+在 Claude Code 中：
+
+- 默认入口：`/fubaobao`
+- 仅工作方法论：`/fubaobao-work`
+- 仅人物性格：`/fubaobao-persona`
+
+> 安装其他博主，把命令里的 `fubaobao` 换成对应文件夹名（如 `yuhao`、`budage`）即可。
+
 ## 添加新博主
 
 1. 在本目录新建 `<slug>/` 文件夹
