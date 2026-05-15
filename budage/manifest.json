@@ -1,0 +1,68 @@
+{
+  "name": "budage",
+  "version": "0.1.0",
+  "type": "celebrity",
+  "profile": "budget-unfriendly",
+  "subject": {
+    "primary_name": "不答哥",
+    "real_name": "覃流星",
+    "alternate_names": ["阿星", "网红校长"],
+    "domain": "短视频 / IP 孵化 / 心灵成长",
+    "platforms": ["抖音", "视频号"]
+  },
+  "files": {
+    "skill": "SKILL.md",
+    "persona": "persona.md",
+    "work": "work.md",
+    "persona_skill": "persona_skill.md",
+    "work_skill": "work_skill.md",
+    "knowledge_research_raw": [
+      "knowledge/research/raw/01_writings.md",
+      "knowledge/research/raw/02_conversations.md",
+      "knowledge/research/raw/03_expression_dna.md",
+      "knowledge/research/raw/04_decisions.md",
+      "knowledge/research/raw/05_external_views.md",
+      "knowledge/research/raw/06_timeline.md"
+    ],
+    "knowledge_research_merged": "knowledge/research/merged/summary.md",
+    "knowledge_research_reviews": [
+      "knowledge/research/reviews/research_audit.md",
+      "knowledge/research/reviews/synthesis.md",
+      "knowledge/research/reviews/validation.md"
+    ],
+    "knowledge_persona_analysis": "knowledge/research/persona_analysis.md"
+  },
+  "research": {
+    "cutoff": "2026-05-14",
+    "primary_audio_source_local_only": "/tmp/budage.m4a (excluded from repo)",
+    "grounded_urls_count": 9,
+    "primary_source_count": 4,
+    "secondary_source_count": 5,
+    "blacklisted_sources_used": 0,
+    "track_coverage": "6/6"
+  },
+  "pipeline": {
+    "research": "PASS",
+    "audit": "PASS",
+    "synthesis": "PASS",
+    "validation": "PASS"
+  },
+  "mental_models": [
+    {"id": "M1", "name": "流量 = 情绪 × 争议"},
+    {"id": "M2", "name": "不答 是防守工具"},
+    {"id": "M3", "name": "数据上抬法"},
+    {"id": "M4", "name": "赛道升级 ≠ 退场"},
+    {"id": "M5", "name": "大佬定位法 (auxiliary)"}
+  ],
+  "decision_heuristics_count": 8,
+  "internal_tensions_count": 3,
+  "validation_anchors": {
+    "known_answer_tests": 2,
+    "edge_case_tests": 1
+  },
+  "limits": {
+    "thin_dimensions": ["D5 External Views (0% primary)", "D6 Timeline 2022-2024 段"],
+    "unverified_facts": ["卖公司 4.3 亿（仅自述）", "火种计划 6000 会员（仅自述）", "不答哥 名字官方由来"]
+  },
+  "user_invocable": true
+}

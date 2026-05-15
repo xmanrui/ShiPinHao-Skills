@@ -1,0 +1,35 @@
+{
+  "skill_name": "budage",
+  "display_name": "不答哥",
+  "category": "celebrity",
+  "subcategory": "wechat-channel-creator",
+  "tags": [
+    "短视频",
+    "IP孵化",
+    "流量教学",
+    "心灵成长",
+    "佛系金句",
+    "覃流星",
+    "阿星",
+    "网红校长",
+    "视频号",
+    "抖音",
+    "wechat-channel",
+    "budget-unfriendly"
+  ],
+  "language": "zh-CN",
+  "created": "2026-05-14",
+  "updated": "2026-05-14",
+  "version": "0.1.0",
+  "author": "distilled by Claude Code (budget-unfriendly celebrity pipeline)",
+  "source_audio_minutes": 34,
+  "source_audio_path_excluded": true,
+  "license_note": "This skill is an AI-style mimicry for personal study and creative reference only. Not for impersonation, commercial repackaging, or content that misrepresents the real person.",
+  "research_profile": "budget-unfriendly",
+  "pipeline_status": {
+    "research": "PASS",
+    "audit": "PASS",
+    "synthesis": "PASS",
+    "validation": "PASS"
+  }
+}
