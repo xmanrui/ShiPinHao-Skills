@@ -3,16 +3,17 @@
 
 ## Skills 列表
 
-| 博主.skill                                              | 简介                               | 状态    |
-|-------------------------------------------------------|----------------------------------|-------|
+| 博主.skill                                              | 简介                                 | 状态    |
+|-------------------------------------------------------|------------------------------------|-------|
 | <h3>[福饱饱.skill](./fubaobao/README.md)</h3>            | 微信视频号素人妈妈博主，做带货 + 口播 vlog + 素人创作教程 | done  |
-| <h3>[俞浩.skill](./yuhao/README.md)</h3>                | 追觅CEO，日更100条                     | doing |
-| <h3>[不答哥.skill](./budage/README.md)</h3>              | 大博主，日更100条                       |doing |
-| <h3>[刘思毅.skill](./liusiyi/README.md)</h3>             | 群响创始人，日更100条                     |doing |
-| <h3>[熬霸马.skill](./aobama/README.md)</h3>              | 素人，日更100条                        |doing |
-| <h3>[海涛小同学.skill](./haitaoxiaotongxue/README.md)</h3> | 素人，受熬巴马影响，日更100条                 |doing |
-| <h3>[陈昌文.skill](./chenchangwen/README.md)</h3>        | 日更100条                 |doing |
-| <h3>[懂十一.skill](./dongshiyi/README.md)</h3>           | 日更100条                 |doing |
+| <h3>[俞浩.skill](./yuhao/README.md)</h3>                | 追觅CEO，日更100条                       | done  |
+| <h3>[不答哥.skill](./budage/README.md)</h3>              | 大博主，日更100条                         | done  |
+| <h3>[刘思毅.skill](./liusiyi/README.md)</h3>             | 群响创始人，日更100条                       | doing |
+| <h3>[熬霸马.skill](./aobama/README.md)</h3>              | 素人，日更100条                          | doing |
+| <h3>[海涛小同学.skill](./haitaoxiaotongxue/README.md)</h3> | 素人，受熬巴马影响，日更100条                   | doing |
+| <h3>[陈昌文.skill](./chenchangwen/README.md)</h3>        | 日更100条                             | doing |
+| <h3>[懂十一.skill](./dongshiyi/README.md)</h3>           | 日更100条                             | doing |
+| <h3>[晓晖博士.skill](./dongshiyi/README.md)</h3>          | AI口播博主                             | doing |
 
 ## 目录约定
 ![img.png](doc/img.png)
